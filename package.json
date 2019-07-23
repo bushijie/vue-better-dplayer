@@ -1,0 +1,51 @@
+{
+  "name": "vue-better-dplayer",
+  "description": "Better use of HLS with the latest DPlayer",
+  "version": "0.0.4",
+  "author": "bushijie <bushijielove@qq.com>",
+  "license": "MIT",
+  "private": false,
+  "main": "dist/vue-better-dplayer.js",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot",
+    "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
+  },
+  "dependencies": {
+    "dplayer": "^1.25.0",
+    "hls.js": "^0.12.4",
+    "vue": "^2.6.10"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ],
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-stage-3": "^6.24.1",
+    "cross-env": "^5.0.5",
+    "css-loader": "^0.28.7",
+    "file-loader": "^1.1.4",
+    "vue-loader": "^13.0.5",
+    "vue-template-compiler": "^2.6.10",
+    "webpack": "^3.6.0",
+    "webpack-dev-server": "^2.9.1",
+    "element-ui": "^2.9.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bushijie/vue-better-dplayer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bushijie/vue-better-dplayer/issues"
+  },
+  "keywords": [
+    "vue",
+    "component",
+    "video",
+    "dplayer",
+    "hls"
+  ]
+}
